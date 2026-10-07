@@ -20,7 +20,7 @@ The environment consists of a Domain Controller, a Windows client, and a Kali Li
 
 A Windows Server virtual machine was configured as the Active Directory Domain Controller.
 
-![alt text](../Screenshots.md/AD.png)
+![alt text](Screenshots.md/AD.png)
 
 The following services were configured:
 
@@ -36,13 +36,13 @@ A Windows 11 virtual machine was configured as a domain-joined endpoint.
 
 The machine was successfully connected to the Active Directory domain and can authenticate using domain accounts.
 
-![alt text](<../Screenshots.md/Windows 11.png>)
+![alt text](<Screenshots.md/Windows 11.png>)
 
 ## 5. Wazuh SIEM
 
 Wazuh was deployed as the central security monitoring platform.
 
-![alt text](../Screenshots.md/Wazuh_server.png)
+![alt text](Screenshots.md/Wazuh_server.png)
 
 The Wazuh environment consists of:
 
