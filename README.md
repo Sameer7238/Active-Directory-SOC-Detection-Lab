@@ -60,33 +60,7 @@ The lab will progressively simulate and investigate different attack techniques 
 
 ---
 
-## 🔄 SOC Detection Workflow
 
-Each attack is investigated using a structured SOC workflow:
-
-
-Attack Simulation
-       ↓
-Windows Security Events
-       ↓
-Wazuh Agent
-       ↓
-Wazuh Manager
-       ↓
-Security Alert
-       ↓
-Alert Triage
-       ↓
-Evidence Collection
-       ↓
-Event Analysis
-       ↓
-MITRE ATT&CK Mapping
-       ↓
-Incident Investigation
-       ↓
-Remediation / Hardening
-```
 
 ## 📊 Windows Event Monitoring
 
