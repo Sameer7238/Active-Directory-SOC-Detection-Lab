@@ -1,4 +1,4 @@
-# 🛡️ Active Directory SOC Detection & Attack Simulation Lab
+# 🛡️ Active Directory SOC Detection Lab
 
 A hands-on cybersecurity lab designed to simulate common attacks against an **Active Directory environment** and detect, investigate, and respond to suspicious activity using **Wazuh SIEM** and native Windows security logs.
 
@@ -18,7 +18,7 @@ The project is focused on developing practical **SOC analyst skills**, including
 - Develop detection and response skills.
 ---
 
-## 🏗️ Lab Architecture
+## Lab Architecture
 ![alt text](<Screenshots.md/AD Lab Structure.png>)
 
 ---
@@ -28,10 +28,9 @@ The project is focused on developing practical **SOC analyst skills**, including
 | Component | Role |
 |---|---|
 | Kali Linux | Attack simulation |
-| Windows Server | Active Directory Domain Controller and DNS |
+| Windows Server | Active Directory Domain Controller|
 | Windows 11 | Domain-joined endpoint |
 | Wazuh | SIEM, log collection and detection |
-| VMware | Virtualization platform |
 
 ---
 
@@ -43,9 +42,8 @@ The project is focused on developing practical **SOC analyst skills**, including
 - Kali Linux
 - Wazuh SIEM
 - Windows Event Logs
-- PowerShell
 - MITRE ATT&CK
-- VMware
+
 
 ---
 
@@ -53,12 +51,12 @@ The project is focused on developing practical **SOC analyst skills**, including
 
 The lab will progressively simulate and investigate different attack techniques commonly associated with Active Directory environments.
 
-| # | Attack / Activity | 
-|---|---|---|
+| # | Attacks | 
+|---|---|
 | 1 | Brute Force Authentication |
 | 2 | Active Directory Account Deletion |
-| 2 | Active Directory Account Creation |
-| 3 | Pass-the-Hash | 
+| 3 | Active Directory Account Creation |
+| 4 | Pass-the-Hash | 
 
 ---
 
@@ -112,45 +110,11 @@ Some important events include:
 
 Detected activities are mapped to the **MITRE ATT&CK framework** to understand attacker behavior and improve detection coverage.
 
-Example:
-
-```text
-Attack:
-Brute Force Authentication
-
-MITRE ATT&CK:
-T1110 - Brute Force
-
-Evidence:
-Windows Event ID 4625
-
-Detection:
-Wazuh Alert
-
-Response:
-Investigate source IP → identify affected accounts →
-contain suspicious activity → review authentication logs
-```
-
----
 
 ## 🔐 Security Hardening
 
 After each attack simulation, defensive recommendations will be documented.
 
-Examples include:
-
-- Enforcing strong password policies.
-- Implementing account lockout policies.
-- Removing unnecessary administrative privileges.
-- Monitoring privileged group changes.
-- Disabling unnecessary legacy protocols.
-- Improving Windows auditing.
-- Monitoring suspicious authentication activity.
-- Applying least-privilege principles.
-- Reviewing Active Directory security configurations.
-
----
 
 ## 📈 Skills Demonstrated
 
@@ -160,7 +124,6 @@ This project demonstrates practical experience with:
 - Windows Security Event Analysis
 - SIEM
 - Wazuh
-- Detection Engineering
 - Security Monitoring
 - Log Analysis
 - MITRE ATT&CK
