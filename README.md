@@ -19,7 +19,7 @@ The project is focused on developing practical **SOC analyst skills**, including
 ---
 
 ## Lab Architecture
-![alt text](<Screenshots.md/AD Lab Structure.png>)
+![alt text](<Screenshots/AD Lab Structure.png>)
 
 ---
 

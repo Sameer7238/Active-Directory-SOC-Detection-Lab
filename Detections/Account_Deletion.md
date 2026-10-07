@@ -2,7 +2,7 @@
 
 Wazuh detected an Active Directory user account deletion on the Domain Controller **DC-01**.
 
-![alt text](../Screenshots.md/Account_Deletion.png)
+![alt text](../Screenshots/Account_Deletion.png)
 
 - **Windows Event ID:** 4726 — A user account was deleted
 - **Wazuh Rule ID:** 60111 — User account disabled or deleted

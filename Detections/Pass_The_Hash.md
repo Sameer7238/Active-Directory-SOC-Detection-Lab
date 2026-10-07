@@ -2,7 +2,7 @@
 
 Wazuh detected a successful remote RDP logon using NTLM authentication on the Windows endpoint **WIN10-01**. The activity was flagged as potential Pass-the-Hash behavior.
 
-![alt text](../Screenshots.md/Pass_The_Hash.png)
+![alt text](../Screenshots/Pass_The_Hash.png)
 
 - **Detection Platform:** Wazuh
 - **Target System:** WIN10-01

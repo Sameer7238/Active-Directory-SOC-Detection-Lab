@@ -2,7 +2,7 @@
 
 Wazuh detected the creation of a new Active Directory user account on the Domain Controller **DC-01**.
 
-![alt text](../Screenshots.md/Account_Creation.png)
+![alt text](../Screenshots/Account_Creation.png)
 
 - **Windows Event ID:** 4720 — A user account was created
 - **Wazuh Rule ID:** 60109 — User account enabled or created

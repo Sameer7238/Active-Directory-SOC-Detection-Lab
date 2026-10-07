@@ -2,7 +2,7 @@
 
 Wazuh detected multiple failed login attempts on the Windows endpoint **WIN10-01** within a short period, indicating potential brute-force activity.
 
-![alt text](../Screenshots.md/Brute_Force.png)
+![alt text](../Screenshots/Brute_Force.png)
 
 - **Windows Event ID:** 4625 — Failed Logon
 - **Wazuh Rule ID:** 60122 — Logon failure: Unknown user or bad password
